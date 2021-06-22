@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>simplestyle_2 - a page</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Hotel<span class="logo_colour">  Veranum</span></a></h1>
+          <h2>Tu comodidad es nuestra prioridad.</h2>
+        </div>
+        <div id="contact_details">
+          <p></p>
+          <p></p>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="examples.html">Servicios</a></li>
+          <li class="selected"><a href="page.html">Habitaciones</a></li>
+          <li><a href="contact.html">Contactanos</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Reservas</h3>
+        <h4>Resevera de piscina</h4>
+        <h5></h5>
+        <p>Reserva y elige la piscina que mas te acomode solo haciendo click<br /><a href="#">Aqui</a></p>
+        <p></p>
+        <h4>Reserva de gimnasio</h4>
+        <h5></h5>
+        <p>Para utilizar las instalaciones de gimnasio solo debes dar click<br /><a href="#">Aqui</a></p>
+        <h3></h3
+       
+        <h3>Buscar</h3>
+        <form method="post" action="#" id="search_form">
+          <p>
+            <input class="search" type="text" name="search_field" value="" />
+            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Buscar" />
+          </p>
+        </form>
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <div class="carousel">
+          <div class="carousel-inner">
+              <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+              <div class="carousel-item">
+                  <img src="style/undormitorio.jpg">
+              </div>
+              <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+              <div class="carousel-item">
+                  <img src="style/2dormitorios.jpg">
+              </div>
+              <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+              <div class="carousel-item">
+                  <img src="style/tresdormitorios.jpg">
+              </div>
+              <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+              <label for="carousel-2" class="carousel-control next control-1">›</label>
+              <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+              <label for="carousel-3" class="carousel-control next control-2">›</label>
+              <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+              <label for="carousel-1" class="carousel-control next control-3">›</label>
+              <ol class="carousel-indicators">
+                  <li>
+                      <label for="carousel-1" class="carousel-bullet">•</label>
+                  </li>
+                  <li>
+                      <label for="carousel-2" class="carousel-bullet">•</label>
+                  </li>
+                  <li>
+                      <label for="carousel-3" class="carousel-bullet">•</label>
+                  </li>
+              </ol>
+          </div>
+      </div>
+        <h1>Habitaciones</h1>
+        <p>Contamos con tres tipos de habitaciones completamente amuebladas para ue puedas disfrutar como te mereces. Un dormitorio para aquellos aventureros solitarios, Dos dormitorios para pareja y Tres dormitorios para un pequeño grupo.</p>
+        
+      </div>
+    </div>
+    <div id="footer">
+       Escuela de Informatica | <a href=https://www.duoc.cl/> DUOC.UC</a> |
+    </div>
+  </div>
+</body>
+</html>
