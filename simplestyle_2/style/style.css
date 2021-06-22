@@ -227,7 +227,10 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
   background: #555 url(menu.png) repeat-x;
   color: #CDC090;
   text-transform: uppercase;
-  letter-spacing: 0.1em;}
+  letter-spacing: 0.1em;
+blo
+}
+
 
 #footer a
 { color: #FFF;
